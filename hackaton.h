@@ -14,7 +14,9 @@ public:
     team &get_team(int);
 
 private:
-    team teams[];
+    team teams[100];
+
+    step steps[20];
 };
 
 
