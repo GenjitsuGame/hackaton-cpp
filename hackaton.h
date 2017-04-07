@@ -6,7 +6,8 @@
 #define HACKATON_CPP_HACKATON_H
 
 
-class Hackaton {
+class hackaton {
+    team teams[];
 
 };
 

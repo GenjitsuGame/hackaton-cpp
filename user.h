@@ -2,7 +2,7 @@
 #define HACKATON_CPP_USER_H
 
 
-class User {
+class user {
 
 };
 

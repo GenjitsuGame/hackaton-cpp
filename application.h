@@ -3,14 +3,14 @@
 
 
 #include <string>
-#include "Hackaton.h"
+#include "hackaton.h"
 
-class Application {
+class application {
 public:
-    bool createHackaton(std::string s);
+    bool create_hackaton(std::string s);
 
 private:
-    Hackaton hackatons[100];
+    hackaton hackatons[100];
 };
 
 
