@@ -2,6 +2,7 @@
 #define HACKATON_CPP_HACKATON_H
 
 #include "team.h"
+#include "step.h"
 
 class hackaton {
 public:
