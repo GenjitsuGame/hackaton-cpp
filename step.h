@@ -1,7 +1,3 @@
-//
-// Created by Pascal Luttgens on 07/04/2017.
-//
-
 #ifndef HACKATON_CPP_STEP_H
 #define HACKATON_CPP_STEP_H
 
