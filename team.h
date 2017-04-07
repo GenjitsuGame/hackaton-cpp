@@ -13,6 +13,7 @@
 class team {
 public:
     team(std::string);
+
     bool add_member(user &);
 
 private:

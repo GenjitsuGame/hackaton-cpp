@@ -9,7 +9,9 @@
 
 class hackaton {
 public:
-    bool register_team(user&, std::string);
+    bool register_team(user &, std::string);
+
+    team &get_team(int);
 
 private:
     team teams[];
