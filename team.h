@@ -10,10 +10,10 @@
 #include <jmorecfg.h>
 #include "user.h"
 
-class Team {
+class team {
 public:
-    Team(std::string);
-    boolean add_member(user&);
+    team(std::string);
+    bool add_member(user &);
 
 private:
     int nMembers;

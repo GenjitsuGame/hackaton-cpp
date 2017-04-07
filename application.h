@@ -9,6 +9,7 @@ class application {
 public:
     bool create_hackaton(std::string s);
 
+
 private:
     hackaton hackatons[100];
 };
