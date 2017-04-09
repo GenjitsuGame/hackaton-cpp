@@ -9,11 +9,13 @@ class team {
 public:
     team(std::string);
 
-    bool add_member(user &);
+    void add_member(user &);
 
 private:
     int nMembers;
     std::string name;
+    int id;
+    static int ID_GEN;
 };
 
 
