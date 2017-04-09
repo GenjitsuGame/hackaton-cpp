@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+results.o: results.cpp.o
+
+.PHONY : results.o
+
+# target to build an object file
+results.cpp.o:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/results.cpp.o
+.PHONY : results.cpp.o
+
+results.i: results.cpp.i
+
+.PHONY : results.i
+
+# target to preprocess a source file
+results.cpp.i:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/results.cpp.i
+.PHONY : results.cpp.i
+
+results.s: results.cpp.s
+
+.PHONY : results.s
+
+# target to generate assembly for a file
+results.cpp.s:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/results.cpp.s
+.PHONY : results.cpp.s
+
 step.o: step.cpp.o
 
 .PHONY : step.o
@@ -303,6 +330,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... results.o"
+	@echo "... results.i"
+	@echo "... results.s"
 	@echo "... step.o"
 	@echo "... step.i"
 	@echo "... step.s"

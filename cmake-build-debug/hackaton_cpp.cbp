@@ -97,6 +97,12 @@
 		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/main.cpp">
 			<Option target="hackaton_cpp"/>
 		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/results.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/results.h">
+			<Option target="hackaton_cpp"/>
+		</Unit>
 		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/step.cpp">
 			<Option target="hackaton_cpp"/>
 		</Unit>

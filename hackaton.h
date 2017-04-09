@@ -2,6 +2,8 @@
 #define HACKATON_CPP_HACKATON_H
 
 #include "team.h"
+#include "step.h"
+#include "results.h"
 
 class hackaton {
 public:
@@ -10,9 +12,9 @@ public:
     team &get_team(int);
 
 private:
-    team teams[100];
-
-    step steps[20];
+    team teams_[100];
+    step steps_[20];
+    results results_;
 };
 
 

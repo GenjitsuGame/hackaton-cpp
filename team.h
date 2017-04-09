@@ -3,7 +3,6 @@
 
 
 #include <string>
-#include <jmorecfg.h>
 #include "user.h"
 
 class team {
