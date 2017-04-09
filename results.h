@@ -11,8 +11,8 @@ public:
     double operator[](const int &) const;
 
 private:
-    int teamIds[];
-    double scores[];
+    int teamIds[20];
+    double scores[20];
     int nTeams;
     int nResults;
 
