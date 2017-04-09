@@ -82,7 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/application.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/application.h">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/hackaton.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/hackaton.h">
+			<Option target="hackaton_cpp"/>
+		</Unit>
 		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/main.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/step.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/step.h">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/team.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/team.h">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/user.cpp">
+			<Option target="hackaton_cpp"/>
+		</Unit>
+		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/user.h">
 			<Option target="hackaton_cpp"/>
 		</Unit>
 		<Unit filename="/Users/supertouf/Ecole/hackaton-cpp/CMakeLists.txt">

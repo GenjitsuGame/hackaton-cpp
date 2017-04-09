@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hackaton_cpp.dir/application.cpp.o"
+  "CMakeFiles/hackaton_cpp.dir/hackaton.cpp.o"
   "CMakeFiles/hackaton_cpp.dir/main.cpp.o"
+  "CMakeFiles/hackaton_cpp.dir/step.cpp.o"
+  "CMakeFiles/hackaton_cpp.dir/team.cpp.o"
+  "CMakeFiles/hackaton_cpp.dir/user.cpp.o"
   "hackaton_cpp.pdb"
   "hackaton_cpp"
 )

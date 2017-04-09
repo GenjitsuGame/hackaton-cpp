@@ -3,5 +3,17 @@ project(hackaton_cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp user.cpp user.h application.cpp application.h hackaton.cpp hackaton.h team.cpp team.h step.cpp step.h)
+set(SOURCE_FILES
+        application.cpp
+        application.h
+        hackaton.cpp
+        hackaton.h
+        main.cpp
+        step.cpp
+        step.h
+        team.cpp
+        team.h
+        user.cpp
+        user.h)
+
 add_executable(hackaton_cpp ${SOURCE_FILES})

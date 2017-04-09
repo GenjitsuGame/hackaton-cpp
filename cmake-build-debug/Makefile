@@ -123,6 +123,60 @@ hackaton_cpp/fast:
 	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/build
 .PHONY : hackaton_cpp/fast
 
+application.o: application.cpp.o
+
+.PHONY : application.o
+
+# target to build an object file
+application.cpp.o:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/application.cpp.o
+.PHONY : application.cpp.o
+
+application.i: application.cpp.i
+
+.PHONY : application.i
+
+# target to preprocess a source file
+application.cpp.i:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/application.cpp.i
+.PHONY : application.cpp.i
+
+application.s: application.cpp.s
+
+.PHONY : application.s
+
+# target to generate assembly for a file
+application.cpp.s:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/application.cpp.s
+.PHONY : application.cpp.s
+
+hackaton.o: hackaton.cpp.o
+
+.PHONY : hackaton.o
+
+# target to build an object file
+hackaton.cpp.o:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/hackaton.cpp.o
+.PHONY : hackaton.cpp.o
+
+hackaton.i: hackaton.cpp.i
+
+.PHONY : hackaton.i
+
+# target to preprocess a source file
+hackaton.cpp.i:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/hackaton.cpp.i
+.PHONY : hackaton.cpp.i
+
+hackaton.s: hackaton.cpp.s
+
+.PHONY : hackaton.s
+
+# target to generate assembly for a file
+hackaton.cpp.s:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/hackaton.cpp.s
+.PHONY : hackaton.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+step.o: step.cpp.o
+
+.PHONY : step.o
+
+# target to build an object file
+step.cpp.o:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/step.cpp.o
+.PHONY : step.cpp.o
+
+step.i: step.cpp.i
+
+.PHONY : step.i
+
+# target to preprocess a source file
+step.cpp.i:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/step.cpp.i
+.PHONY : step.cpp.i
+
+step.s: step.cpp.s
+
+.PHONY : step.s
+
+# target to generate assembly for a file
+step.cpp.s:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/step.cpp.s
+.PHONY : step.cpp.s
+
+team.o: team.cpp.o
+
+.PHONY : team.o
+
+# target to build an object file
+team.cpp.o:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/team.cpp.o
+.PHONY : team.cpp.o
+
+team.i: team.cpp.i
+
+.PHONY : team.i
+
+# target to preprocess a source file
+team.cpp.i:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/team.cpp.i
+.PHONY : team.cpp.i
+
+team.s: team.cpp.s
+
+.PHONY : team.s
+
+# target to generate assembly for a file
+team.cpp.s:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/team.cpp.s
+.PHONY : team.cpp.s
+
+user.o: user.cpp.o
+
+.PHONY : user.o
+
+# target to build an object file
+user.cpp.o:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/user.cpp.o
+.PHONY : user.cpp.o
+
+user.i: user.cpp.i
+
+.PHONY : user.i
+
+# target to preprocess a source file
+user.cpp.i:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/user.cpp.i
+.PHONY : user.cpp.i
+
+user.s: user.cpp.s
+
+.PHONY : user.s
+
+# target to generate assembly for a file
+user.cpp.s:
+	$(MAKE) -f CMakeFiles/hackaton_cpp.dir/build.make CMakeFiles/hackaton_cpp.dir/user.cpp.s
+.PHONY : user.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +294,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hackaton_cpp"
+	@echo "... application.o"
+	@echo "... application.i"
+	@echo "... application.s"
+	@echo "... hackaton.o"
+	@echo "... hackaton.i"
+	@echo "... hackaton.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... step.o"
+	@echo "... step.i"
+	@echo "... step.s"
+	@echo "... team.o"
+	@echo "... team.i"
+	@echo "... team.s"
+	@echo "... user.o"
+	@echo "... user.i"
+	@echo "... user.s"
 .PHONY : help
 
 
