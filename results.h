@@ -4,6 +4,19 @@
 
 class results {
 public:
+    results(int);
+
+    double &operator[](const int &);
+
+    double operator[](const int &) const;
+
+private:
+    int teamIds[];
+    double scores[];
+    int nTeams;
+    int nResults;
+
+    int get_position_from_id(const int &) const;
 };
 
 
